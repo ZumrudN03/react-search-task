@@ -1,27 +1,37 @@
-.navbar_bkg{
-    max-width: 100%;
-    box-shadow: 0px 2px 4px 0px #0000000e;
-
-    .navbar{
-        max-width: 85%;
-        display: flex;
-        justify-content: space-between;
-        margin: auto;
-        padding: 20px;
-        .navbar_left{
-            p{
-                font-size: 24px;
-                font-weight: 800;
-            }
-        }
-        .navbar_right{
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            cursor: pointer;
-            p{
-                font-weight: 600;
-            }
-        }
+.navbar_bkg {
+  max-width: 100%;
+  box-shadow: 0px 2px 4px 0px #0000000e;
+  .navbar {
+    max-width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+    font-family: "Nunito Sans", sans-serif;
+    .navbar_left {
+      p {
+        font-size: 24px;
+        font-weight: 800;
+      }
     }
+    .navbar_right {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      p {
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+:root{
+  --main-bg-color: white;
+  --main-text-color: black;
+}
+
+.theme{
+  --main-bg-color: #202C36;
+  --main-text-color: white;
 }
